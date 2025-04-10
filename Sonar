@@ -1,3 +1,8 @@
+#####################################
+
+Sonar token on 10/04/2025 :: squ_05dee8cbf6ad094ec1b6ad1a85d99bdb92f01ae1
+
+
 pipeline {
     agent any
 	
@@ -22,8 +27,8 @@ pipeline {
                 sh 'ls -ltrh'
                 
                 sh ''' mvn sonar:sonar \\
-                      -Dsonar.host.url=http://ec2-18-234-233-210.compute-1.amazonaws.com:9000 \\
-                      -Dsonar.login=squ_fb5fdb469f3cbfe23a88554ae7cd3ba7e3c29263'''
+                      -Dsonar.host.url=http://ec2-3-236-179-150.compute-1.amazonaws.com:9000 \\
+                      -Dsonar.login=squ_05dee8cbf6ad094ec1b6ad1a85d99bdb92f01ae1'''
             }
     	}
 		
