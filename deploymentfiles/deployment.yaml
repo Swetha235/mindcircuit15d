@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: fbcont1
-          image: devopshubg333/batch15d:mcfbapp
+          image: devopshubg333/batch15d:python_flaskapp
           ports:
             - containerPort: 8080
       
