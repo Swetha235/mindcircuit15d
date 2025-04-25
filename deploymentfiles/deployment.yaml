@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: fbcont1
-          image: bswetha235/batch15d:2
+          image: bswetha235/swetharepo:2
           ports:
             - containerPort: 8080
       
